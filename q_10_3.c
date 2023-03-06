@@ -18,7 +18,6 @@ void main(){
     scanf ("%s", &login);
 
     result = strcmp(login, lanswer); //take login and lanswer if it is 0 is =
-    //pin_result = strcmp(pin, panswer);
 
     if(result == 0){
         printf("\nWelcome, %s \n\n", login);
