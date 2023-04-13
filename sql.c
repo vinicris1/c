@@ -12,7 +12,7 @@ void main(){
     int conta;
 
     mysql_init(&conexao);
-    if(mysql_real_connect(&conexao, "localhost", "root", "teste", 3306, NULL, 0)){
+    if(mysql_real_connect(&conexao, "localhost", "teste", "root","admin", 3306, NULL, 0)){
         printf("\n CONNECT SUCEFULLY \n");
     }else{
     	printf("Connection failure");
